@@ -26,3 +26,11 @@ git add
 git commit
 git push
 git clone repourl
+zip -r ankita.zip directory 
+zip ankita.zip filename
+unzip ankita.zip
+unzip -q ankita.zip (no detail will come )
+tar -czvf ankita.tar.gz project/
+c - create z-zip v-verbose f-file
+tar xzvp ankita.taz.gz
+
