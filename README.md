@@ -52,6 +52,25 @@ sed -i ‘s/oldword/newword/g’ filename
 ls -lrth | awk ‘{print $7}’
 awk ‘{print $1}’ filename
 ps -ef ‘{print $1, $4}’ file
-
+find
+locate
+less
+more
+head
+tail
+nano
+vim
+gedit
+wc
+strings
+chmod
+chgrp
+umask
+isattr
+chattr
+uniq
+comm
+diff
+uname
 
 
