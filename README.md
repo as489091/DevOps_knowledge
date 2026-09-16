@@ -72,5 +72,18 @@ uniq
 comm
 diff
 uname
+nproc
+yum install nginx
+yum remove -y nginx
+yum history list
+yum list nginx*
+yum history undo 5
+sleep 10
+uptime
+reboot
+grep ankita filename
+grep -i ankita filename
+grep ‘^ankita’ -i filename
+grep ‘^[^#].*yes$’ filename #do not print line starting with #,print line which end with yes
 
 
