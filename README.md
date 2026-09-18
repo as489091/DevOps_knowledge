@@ -1,8 +1,8 @@
 # DevOps_knowledge
-cd
-ls -lrt
-ls -lrth
-pwd
+cd # change directory 
+ls -lrt# shows long list
+ls -lrth# shows long list with time
+pwd#present working dir
 whoami
 ssh username@hostname
 df
