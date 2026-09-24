@@ -85,5 +85,14 @@ grep ankita filename
 grep -i ankita filename
 grep ‘^ankita’ -i filename
 grep ‘^[^#].*yes$’ filename #do not print line starting with #,print line which end with yes
+scp file username@host:/tmp
+scp -r directory username@host/tmp
+ssh -keygen (generate pub and pri 🔑)
+ssh -copy-id username@host (it will copy server a public key and paste it to sever b of .ssh of aurhorized.ssh file)
+
+cat ankita 2>file_name  #will route error to ankita it will not show in log
+cat ankita 1> file_name #it will show output in file_name it will not show the error
+cat ankita >file_name 2>&1 #it will send error and output in same file
+
 
 
